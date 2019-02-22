@@ -44,10 +44,10 @@ module.exports = function render() {
     // Call a monkey-patched top-level API method, setSourceData, instead of the
     // native MapboxGL getSource().setData() pattern. 
     // This supports usage with react-map-gl.
-    store.ctx.map.setSourceData(Constants.sources.COLD, store.sources.cold)
+    store.ctx.map.setSourceData(Constants.sources.COLD, store.sources.cold);
   }
 
-  store.ctx.map.setSourceData(Constants.sources.HOT, store.sources.hot)
+  store.ctx.map.setSourceData(Constants.sources.HOT, store.sources.hot);
 
   if (store._emitSelectionChange) {
     store.ctx.map.fire(Constants.events.SELECTION_CHANGE, {
