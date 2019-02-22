@@ -1,3 +1,6 @@
+# Note
+This fork of `mapbox-gl-draw` is only intended to be used temporarily with our `react-map-gl` setup. Please don't use this fork elsewhere!
+
 # @mapbox/mapbox-gl-draw
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/mapbox/mapbox-gl-draw.svg)](https://greenkeeper.io/) [![Build Status](https://travis-ci.org/mapbox/mapbox-gl-draw.svg?branch=master)](https://travis-ci.org/mapbox/mapbox-gl-draw)
